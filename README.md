@@ -1,0 +1,2 @@
+# swaConfig
+Configuration
