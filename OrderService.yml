@@ -13,3 +13,9 @@ spring:
       host: localhost
       port: 27017
       database: orderDB
+
+ zipkin:
+   base-url: http://localhost:9411/
+ sleuth:
+   sampler:
+     probability: 1 #100% (default = 10%)
