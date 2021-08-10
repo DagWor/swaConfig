@@ -1,0 +1,15 @@
+server:
+  port: 8094
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: CustomerService
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: customerDB
