@@ -4,13 +4,13 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:876/eureka/
+      defaultZone: http://localhost:8761/eureka/
 
 spring:
   application:
-    name: ShoppingCartCommandServic
+    name: ShoppingCartCommandService
   data:
     mongodb:
       host: localhost
       port: 27017
-      database: shoppingCommandDB
+      database: shoppingCommandD
